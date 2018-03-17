@@ -69,7 +69,7 @@ export default function(styleApi: IStyleAPI): Array<IStyleItem> {
         },
         {separator: true},
 
-	// import "./styles";
+	// import "./styles.css";
         {match: and(hasNoMember, isRelativeModule, isStylesModule)},
 
 	// import styles from "./Components.scss";
